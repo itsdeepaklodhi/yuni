@@ -1,0 +1,10 @@
+.header-margin {
+  height: 65px;
+}
+
+@media (min-width: 768px) {
+  .header-margin {
+    height: 70px;
+  }
+}
+

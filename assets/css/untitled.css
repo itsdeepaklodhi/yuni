@@ -1,0 +1,26 @@
+.myform .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 8px;
+}
+
+.myform .createaccount {
+  background-color: rgb(121, 141, 171);
+  color: white;
+  height: 69px;
+  font-size: 21px;
+}
+
+.myform label {
+  font-weight: 500;
+}
+
+.description {
+  height: 125px;
+}
+

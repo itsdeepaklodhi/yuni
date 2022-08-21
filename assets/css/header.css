@@ -1,0 +1,88 @@
+.header-div {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+}
+
+.desktop-main-nav-div {
+  display: flex;
+  width: 90%;
+  padding: 0;
+  height: 70px;
+  margin: 0 5%;
+  justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .desktop-main-nav-div {
+    display: none;
+  }
+}
+
+.nav-barand {
+  line-height: 70px;
+  font-size: 32px;
+  font-weight: 591;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 35px;
+  margin-top: 23px;
+}
+
+.nav-list > li {
+  margin-left: 20px;
+}
+
+.search-div {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(0,0,0,0);
+  z-index: 2;
+}
+
+.search-div > input {
+  width: 60%;
+  height: 31px;
+  border-radius: 11px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.search-div {
+  display: none;
+}
+
+.mobile-main-nav-div {
+  display: flex;
+  background-color: rgba(0,0,0,0);
+  height: 65px;
+  justify-content: space-between;
+}
+
+.mobile-main-nav-div > div > p {
+  display: initial;
+  line-height: 65px;
+  font-size: 24px;
+  font-weight: 655;
+  margin-left: 6px;
+}
+
+@media (min-width: 577px) {
+  .mobile-main-nav-div {
+    display: none;
+  }
+}
+
